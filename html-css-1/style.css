@@ -1,0 +1,145 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company {
+  margin-left: 50px;
+  color: white;
+}
+
+.company h1 {
+  height: 40px;
+  font-size: 36px;
+  color: white;
+  background-color: grey;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+/* good to go*/
+header a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+p {
+  height: 150px;
+  background-color: black;
+}
+
+h1 {
+  color: yellow;
+  background-color: black;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.green-container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.green-container > div {
+  height: 80%;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  height: 80%;
+  width: 40%;
+  border-radius: 10px;
+  background: rgb(6, 252, 198);
+}
+
+.orange-container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.orange-container > div {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-4,
+.box-5 {
+  height: 80%;
+  width: 20%;
+  background: orange;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.text-picture-container {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.text-picture-container > div {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  object-fit: contain;
+  height: 80%;
+  width: 30%;
+  padding: 40px;
+}
+
+.text-picture-container > img {
+  height: 80%;
+  width: 30%;
+  object-fit: contain;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  height: 100px;
+  background-color: rgba(30, 13, 70, 0.822);
+}
